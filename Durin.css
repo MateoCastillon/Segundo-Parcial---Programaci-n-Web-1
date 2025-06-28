@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, serif;
+  background-image: url('https://penandpaper.news/wp-content/uploads/2024/08/Moria-through-the-doors-of-durin-cover-1-scaled.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.formulario {
+  background-color: rgba(245, 245, 220, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #660000;
+}
+
+h1 {
+  font-size: 36px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #330000;
+}
+
+label {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #330000;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #660000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #770000;
+}
